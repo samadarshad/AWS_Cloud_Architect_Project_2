@@ -1,0 +1,9 @@
+Initial cost: Approx $8600/month
+
+With reduced budget:
+The EC2 m5.4xlarge instance type costs approx $2800/month
+- change EC2 type from m5.4xlarge to m5.large, but increase instance count from 8 to 10, this will mean smaller servers but greater number of instances to handle the low-cpu but high-frequency tasks in a social media platform.
+- this reduced the bills by approx $2000/month, which makes the total to $6700/month
+The S3 100TB/month with 20TB/month data transfer costs approx $4000/month
+- change this to 75TB/month with 15TB/month outbound data transfer because the initial size needs are low for the number of users
+- this reduced the bills by approx $1000/month, which makes the total to $5700/month
